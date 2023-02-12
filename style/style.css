@@ -14,7 +14,7 @@ body {
       rgba(11, 4, 30, 0.7),
       #0000008a
     ),
-    url(/img/food.png);
+    url("../img/food.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
