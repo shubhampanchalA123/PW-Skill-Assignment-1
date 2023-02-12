@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-family: "Red Rose", cursive;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(
+      rgba(236, 59, 47, 0.7),
+      rgba(11, 4, 30, 0.7),
+      #0000008a
+    ),
+    url(/img/food.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+/* --------------------------- */
+/* =========header============= */
+
+header {
+  width: 100%;
+  height: 15px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  margin: 20px;
+  position: relative;
+  left: -50px;
+  cursor: pointer;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li a {
+  margin-right: 80px;
+  color: rgb(252, 214, 0);
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 1000;
+  font-family: "Times New Roman", Times, serif;
+  cursor: pointer;
+  padding: 10px 20px;
+}
+
+nav ul li a:hover {
+  color: white;
+  background-color: maroon;
+}
+
+.order {
+  position: relative;
+  right: -40px;
+  text-decoration: none;
+  padding: 10px 30px;
+  background-color: red;
+  color: white;
+  font-weight: 700;
+  border-radius: 6px;
+}
+
+.order:hover {
+  background-color: white;
+  color: red;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: absolute;
+  top: 18vh;
+  left: 24vw;
+}
+
+main h1 {
+  font-family: "Dela Gothic One", cursive;
+  font-size: 4rem;
+  text-align: center;
+  color: rgb(247, 181, 0);
+  margin: 22px;
+}
+
+.menu {
+  background-color: rgba(221, 34, 34, 0.986);
+  color: white;
+  padding: 10px 20px;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.menu:hover {
+  color: red;
+  background-color: white;
+  border-radius: 6px;
+}
+
+.scroll {
+  position: fixed;
+  top: 400px;
+  right: 40px;
+}
